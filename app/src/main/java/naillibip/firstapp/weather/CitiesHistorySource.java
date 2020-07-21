@@ -53,4 +53,3 @@ public class CitiesHistorySource {
         }).start();
     }
 }
-
