@@ -32,7 +32,6 @@ public class ConnectionStateMonitor extends ConnectivityManager.NetworkCallback 
         super.onLost(network);
         NotificationCompat.Builder builder = new
                 NotificationCompat.Builder(context, "2")
-                .setSmallIcon(R.mipmap.open_weather_app)
                 .setContentTitle("Нет интернета")
                 .setContentText("Приложение не может обновить погоду");
         NotificationManager notificationManager =
